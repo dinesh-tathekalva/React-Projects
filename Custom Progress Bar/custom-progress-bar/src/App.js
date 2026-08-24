@@ -14,7 +14,6 @@ function App() {
   [...Array(bars).keys()].map(index=>(
     <CustomProgressBar></CustomProgressBar> 
   ))
-
  }
  </div>
     </div>

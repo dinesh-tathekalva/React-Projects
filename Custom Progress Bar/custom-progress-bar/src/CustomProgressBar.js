@@ -1,12 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import './ProgressBar.css'
 function CustomProgressBar() {
-    // const [startTransition, setTransition]=useState(false);
-//     useEffect(()=>{
-// const timer=setTimeout(()=>{
-//     setTransition(true);
-// }
-// ,10)
 const [progress, setProgress]=useState(0)
 useEffect(()=>{
 const interval= setInterval(()=>{
